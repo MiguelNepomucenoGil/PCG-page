@@ -1,0 +1,741 @@
+body {
+    height: 3800px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+
+.introducao, .resultados, .referencias {
+    padding-top: 120px; 
+   
+}
+
+.subtitulos {
+    font-size: 300%;
+    color: #5B7FFF;
+    font-weight: 700;
+    margin-left: 70px;
+}
+
+
+nav {
+    height: 120px;
+    width: 100%;
+    background-color: #5B7FFF;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+nav li:hover {
+    color: rgb(201, 209, 252);
+    transition: 0.5s;
+}
+
+
+
+nav span {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    color: white;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-right: 40px;
+  
+
+}
+
+nav li {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.sub-nav {
+    display: flex;
+    margin-left: 60%;
+    justify-content: center;
+    background-color: blue;
+    width: 590px;
+    height: 48px;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+main {
+    margin-top: 200px;
+    position: absolute;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+   
+    background-color:#5B7FFF ;
+    margin-top: auto;
+}
+
+footer p {
+    color: white;
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+footer img {
+    display: flex;
+    justify-content: start;
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.introducao p {
+    width: 93%;
+    font-size: 150%;
+    text-align: justify-all;
+    margin-left: 70px;
+}
+
+
+.resultados {
+    margin-top: 130px;
+    
+}
+
+.resultados h1 {
+    margin-bottom: 20px;
+}
+
+.resultados p {
+    width: 93%;
+    font-size: 150%;
+    
+    margin-left: 70px;
+}
+
+.referencias {
+    margin-top: 100px;
+
+}
+
+.referencias .card {
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+
+.card a {
+    width: 10%;
+}
+
+.card h5 {
+    font-size: 200%;
+}
+
+.autores {
+    margin-top: 100px;
+}
+
+
+
+.graficos {
+    margin-top: 100px;
+}
+
+
+
+.graficos span {
+    color: red;
+}
+
+
+
+.container-titles {
+   margin-left: 50px;
+   margin-top: 10px;
+}
+
+
+
+.titulo {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+}
+
+
+
+
+
+
+.container {
+    background-color: blue;
+    width: 200px;
+}
+
+
+
+
+
+
+
+.custom-container {
+    background-color: rgb(255, 255, 255); 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+    
+}
+
+
+
+.custom-container p {
+    width: 100%    ;
+}
+
+
+
+.graficos img {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+.card-text {
+    font-size: 150%;
+}
+
+
+
+.autores ul {
+
+    
+    list-style: none;
+    gap: 150px;
+}
+
+.autores li {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+.autores img {
+    
+    width: 50px;
+    margin-right: 15px;
+}
+
+.colunas {
+    display: flex;
+    margin-left: 40px;
+}
+
+.coluna-1 {
+    display: flex;
+    position: absolute;
+}
+
+.coluna-2 {
+    display: flex;
+    position: absolute;
+    margin-left: 40%;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+
+    .sub-nav {
+        display: flex;
+        margin-left: 50%;
+        justify-content: center;
+        background-color: blue;
+        width: 590px;
+        height: 48px;
+    }
+
+    body {
+        height: 4000px;
+    }
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+    .sub-nav {
+        display: flex;
+        margin-left: 40%;
+        justify-content: center;
+        background-color: blue;
+        width: 590px;
+        height: 48px;
+    }
+    
+    body {
+        height: 4200px;
+    }
+
+    .custom-container p {
+        width: 100%;
+    }
+
+    .introducao p {
+        font-size: 20px;
+        width: 90%;
+
+    }
+    
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .sub-nav {
+        display: flex;
+        margin-left: 20%;
+        justify-content: center;
+        background-color: blue;
+        width: 590px;
+        height: 48px;
+    }
+
+    .custom-container h5 {
+        margin-top: 10px;
+
+    }
+
+    .custom-container {
+        background-color: rgb(255, 255, 255); 
+        padding: 10px; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        
+        
+    }
+
+
+    .subtitulos {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    body {
+        height: 4500px;
+    }   
+
+    .introducao p {
+        width: 100%;
+        font-size: 130%;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .resultados p {
+        width: 100%;
+        font-size: 130%;
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+
+
+
+        
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        font-size: 15px;
+        gap: 25px;
+        color: white;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-right: 40px;
+    
+
+    }
+    
+    .referencias .card {
+        margin-top: 30px;
+        margin-left: 12%;
+    
+    }
+
+    .card a {
+        width: 20%;
+    }
+    
+
+    .autores ul {
+
+        margin-top: 30px;
+        list-style: none;
+     
+    }
+    
+    .autores li {
+        font-size: 100%;
+        margin-top: 20px;
+    }
+    
+
+    .autores img {
+    
+        width: 50px;
+        margin-right: 15px;
+    }
+
+    .colunas {
+        display: flex;
+        margin-left: 0;
+        justify-content: center;
+    }
+    
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 40%;
+    }
+    
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 40%;
+    }
+
+    footer p {
+       
+        justify-content: start;
+      
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    body {
+        height: 4700px;
+    }   
+
+}
+
+@media only screen and (max-width: 770px) {
+
+
+    body {
+        height: 5200px;
+    }   
+
+    .sub-nav {
+        display: none;
+    }
+
+   
+}
+
+
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        height: 5800px;
+    } 
+    
+    .titulo {
+
+        font-size: 22px;
+}
+
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 4%;
+    }
+
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 0%;
+        
+        margin-top: 38%;
+    }
+
+
+}
+
+@media only screen and (max-width: 530px) {
+    body {
+        height: 6000px;
+    }   
+}
+
+
+@media only screen and (max-width: 470px) {
+
+
+
+    .custom-container img {
+        width: 100%;
+        height: 80%;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    
+    nav ul {
+        list-style-type: none;
+        font-size: 15px;
+        gap: 25px;
+        color: white;
+        font-weight: 700;
+        margin-top: 10px;
+        margin-right: 40px;
+    
+
+    }
+
+
+    .introducao p {
+        font-size: 18px;
+    }
+
+    .resultados p {
+        font-size: 18px;
+    }
+
+
+    .referencias p {
+        font-size: 18px;
+    }
+
+
+    body{
+    
+        height: 5500px;
+    }
+
+
+
+
+
+    .container-titles {
+       display: none;
+    }
+
+    .titulo {
+        font-size: 15px;
+    }
+
+    nav span {
+        font-size: 15px;
+        overflow-x: hidden;
+    }
+
+
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 5%;
+    }
+
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+
+
+    .subtitulos {
+        font-size: 200%;
+    }
+
+    .referencias a {
+        width: 100px;
+    }
+
+    .sub-nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100vw; 
+    height: 100vh; 
+    transform: translate(100%); 
+    transition: transform 0.3s ease-in;
+    background-color: #5B7FFF;
+    overflow: hidden; 
+}
+
+    .sub-nav.active {
+        transform: translateX(-20%); 
+    }
+
+    .sub-nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        gap: 80px;
+    }
+
+    .sub-nav li {
+        width: 100%; 
+        text-align: center;
+        opacity: 1; 
+    }
+
+
+    .mobile-menu {
+        display: block;
+        margin-left: 85%;
+        margin-top: 4%;
+    }
+  
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+}
+
+
+@media only screen and (max-width: 435px) { 
+
+    body {
+        height: 5700px;
+    }
+
+
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 5%;
+    }
+
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 50%;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 405px) { 
+
+    body {
+        height: 5900px;
+    }
+
+}
+
+
+@media only screen and (max-width: 390px) { 
+
+
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 6%;
+    }
+
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 55%;
+    }
+
+    
+    body {
+        height: 6000px;
+    }
+    
+
+}
+
+
+
+
+@media only screen and (max-width: 370px) {  
+
+    body {
+        height: 6000px;
+    }
+
+    
+    .coluna-1 {
+        display: flex;
+        position: absolute;
+        margin-right: 6%;
+    }
+
+    .coluna-2 {
+        display: flex;
+        position: absolute;
+        margin-left: 0%;
+        margin-top: 60%;
+    }
+
+
+}
